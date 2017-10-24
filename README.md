@@ -6,12 +6,14 @@ Build QGIS 3 nightly/weekly
 ```
 buildbot
         \
-         DockerLatent[1] + cap-add=SYS_ADMIN[2]
+        git + bash[1]
+        |
+        DockerLatent[2] + cap-add=SYS_ADMIN[3]
          \
           mock - copr-cli
-          \
-           COPR
+          |
+          COPR
 ```
-
-[1] http://docs.buildbot.net/latest/manual/cfg-workers-docker.html <br>
-[2] https://docker-py.readthedocs.io/en/1.10.4/hostconfig/
+[1] https://github.com/qgis/QGIS/pull/5333 and https://github.com/qgis/QGIS/pull/5275
+[2] http://docs.buildbot.net/latest/manual/cfg-workers-docker.html <br>
+[3] https://docker-py.readthedocs.io/en/1.10.4/hostconfig/
