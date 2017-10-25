@@ -2,7 +2,7 @@
 FROM fedora:26
 MAINTAINER Daniele Viganò <daniele@vigano.me>
 
-RUN dnf install -y tar bzip2 git python3-pip mock copr-cli && \
+RUN dnf install -y sudo tar bzip2 git python3-pip mock copr-cli && \
     dnf clean all
 # Use a Twisted binary wheel to avoid too many dependencies
 RUN pip3 install https://daniele.vigano.me/files/pypi/Twisted-17.9.0-cp36-cp36m-linux_x86_64.whl \
