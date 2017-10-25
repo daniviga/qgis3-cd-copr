@@ -16,10 +16,10 @@ buildbot
         |  
         |\                                             | 
         | DockerLatent[2]                              |
-        | \                                            |
-        |  COPR (enable)                               | CI
-        |  |                                           |                           
-        |  dnf install                                 | 
+        |  \                                           |
+        |   COPR (enable)                              | CI
+        |   |                                          |                           
+        |   dnf install                                | 
 ```
 [1] https://github.com/qgis/QGIS/pull/5333 and https://github.com/qgis/QGIS/pull/5275 <br>
 [2] http://docs.buildbot.net/latest/manual/cfg-workers-docker.html <br>
