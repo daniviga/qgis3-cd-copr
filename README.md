@@ -1,5 +1,7 @@
 # qgis3-ci-copr
 
+[![Shield](https://shield.lwan.ws/img/u7BZky/qgis)](https://ci.services.vigano.me/#/builders/qgis)
+
 Build QGIS 3 nightly/weekly (wip)
 
 ## Infrastructure
