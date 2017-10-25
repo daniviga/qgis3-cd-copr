@@ -5,6 +5,8 @@
 
 Build QGIS 3 nightly/weekly (wip)
 
+https://ci.services.vigano.me
+
 ## Infrastructure
 ```flat
 buildbot
