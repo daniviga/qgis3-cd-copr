@@ -11,6 +11,8 @@ RUN pip3 install https://daniele.vigano.me/files/pypi/Twisted-17.9.0-cp36-cp36m-
 RUN useradd -u 1003 builder && \
     usermod -a -G mock builder
 
+RUN echo "builder ALL=(ALL) NOPASSWD: /usr/bin/dnf" >> /etc/sudoers
+
 USER builder
 ENV HOME /home/builder
 WORKDIR ${HOME}
