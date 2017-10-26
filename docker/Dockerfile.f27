@@ -17,11 +17,10 @@ USER builder
 ENV HOME /home/builder
 WORKDIR ${HOME}
 
-COPY copr $HOME/.config/copr
-
 RUN buildbot-worker create-worker $HOME 172.17.0.1 f27 work3rP@ss! && \
     echo "Daniele Viganò <daniel@vigano.me>" > info/admin && \
     echo "Docker running Fedora 27 (x86_64)" > info/host
 
+COPY copr $HOME/.config/copr
 ENTRYPOINT ["/usr/local/bin/buildbot-worker"]
 CMD ["start", "--nodaemon"]
