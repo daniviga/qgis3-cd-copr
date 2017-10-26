@@ -1,8 +1,6 @@
 # qgis3-ci-copr
 
 [![Shield](https://shield.lwan.ws/img/u7BZky/qgis)](https://ci.services.vigano.me/#/builders/qgis)
-[![Shield](https://shield.lwan.ws/img/u7BZky/qgis_dnf_f26)](https://ci.services.vigano.me/#/builders/qgis_dnf_f26)
-[![Shield](https://shield.lwan.ws/img/u7BZky/qgis_dnf_f27)](https://ci.services.vigano.me/#/builders/qgis_dnf_f27)
 
 Build QGIS 3 nightly/weekly (wip)
 
