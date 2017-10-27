@@ -1,4 +1,4 @@
-# qgis3-ci-copr
+# qgis3-cd-copr
 
 [![Shield](https://shield.lwan.ws/img/u7BZky/qgis)](https://ci.services.vigano.me/#/builders/qgis)
 
